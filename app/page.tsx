@@ -2,7 +2,7 @@ export default function Page() {
   const profile = {
     name: "Kevin Cai",
     headline: "CS student • ML / CV • Full-stack Engineer",
-    location: "Sydney / Singapore",
+    location: "Sydney / Nanjing",
     bio: "I build practical ML demos and clean web apps. Recently working on computer vision, data engineering, and network programming projects.",
     links: [
       { label: "GitHub", href: "https://github.com" },
