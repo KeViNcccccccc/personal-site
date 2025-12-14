@@ -1,20 +1,20 @@
 export default function Page() {
   const profile = {
     name: "Kevin Cai",
-    headline: "CS student • ML / CV • Full-stack learner",
+    headline: "CS student • ML / CV • Full-stack Engineer",
     location: "Sydney / Singapore",
-    bio: "I build practical ML demos and clean web apps. Recently working on computer vision (YOLO/ViT), data engineering, and network programming projects.",
+    bio: "I build practical ML demos and clean web apps. Recently working on computer vision, data engineering, and network programming projects.",
     links: [
-      { label: "GitHub", href: "https://github.com/yourname" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/yourname" },
-      { label: "Email", href: "mailto:you@example.com" }
+      { label: "GitHub", href: "https://github.com" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/" },
+      { label: "Email", href: "ckw1598409309@yahoo.com" }
     ],
     highlights: [
       {
         title: "What I’m doing",
         items: [
           "Computer Vision: image classification & detection demos",
-          "Data engineering: Spark / MapReduce style pipelines",
+          "Data engineering: Spark pipelines",
           "System/network programming projects in Python"
         ]
       },
@@ -22,7 +22,7 @@ export default function Page() {
         title: "Skills",
         items: [
           "Python, TypeScript, C/C++",
-          "PyTorch, Ultralytics YOLOv8",
+          "PyTorch, Pyspark",
           "Next.js, React, REST APIs"
         ]
       }
@@ -42,7 +42,7 @@ export default function Page() {
       },
       {
         name: "Networking Project",
-        desc: "Custom UDP/TCP client-server implementation in Python.",
+        desc: "Custom UDP/TCP client-server.",
         tags: ["Networking", "Python"],
         href: "#"
       }
